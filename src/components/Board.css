@@ -1,0 +1,52 @@
+.container {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    color: rgb(153, 185, 64);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 40% ;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.container >div{
+text-align: center;    
+}
+
+.sbutton {
+    display: block;
+    position: relative;
+    max-width: 10px;
+    max-height: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    padding: 50px 50px;
+    color: blue;
+    line-height: 0px;
+    background-color: rgb(224, 88, 111);
+    
+}
+button:hover{
+    color: rgb(240, 245, 240);
+    background-color: rgb(87, 12, 119);
+}
+
+.submit{
+    align-self: center;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    padding: 30px 50px;
+    color: blue;
+    background-color: rgb(143, 92, 206);
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-around;
+}
